@@ -1,0 +1,169 @@
+{
+ "source": "PJM PlanningQueues.xml (public), downloaded 2026-11-24",
+ "n_all_rows": 9200,
+ "n_generation_requests": 8190,
+ "status_counts": {
+  "Withdrawn": 4181,
+  "Active": 2348,
+  "In Service": 1150,
+  "Engineering and Procurement": 210,
+  "Suspended": 140,
+  "Under Construction": 64,
+  "Deactivated": 59,
+  "Partially in Service - Under Construction": 37,
+  "Canceled": 1
+ },
+ "submitted_2008_2017": {
+  "n": 2747,
+  "mw": 480880.63,
+  "share_requests_in_service": 0.24026210411357846,
+  "share_mw_in_service": 0.3959794263287336,
+  "share_requests_withdrawn": 0.7247906807426283
+ },
+ "years_to_in_service_median_by_submit_year": {
+  "1997": 5.04,
+  "1999": 3.23,
+  "2000": 1.54,
+  "2001": 2.01,
+  "2002": 2.43,
+  "2003": 1.49,
+  "2004": 1.77,
+  "2005": 2.66,
+  "2006": 2.6,
+  "2007": 2.1,
+  "2008": 3.06,
+  "2009": 2.19,
+  "2010": 3.94,
+  "2011": 2.45,
+  "2012": 2.65,
+  "2013": 2.66,
+  "2014": 2.38,
+  "2015": 3.56,
+  "2016": 4.08,
+  "2017": 3.91,
+  "2018": 3.58,
+  "2019": 1.57,
+  "2020": 2.56
+ },
+ "active": {
+  "n": 2347,
+  "gw": 359.97518540000004,
+  "by_fuel_gw": {
+   "hydro": 0.56,
+   "natural gas": 20.77,
+   "offshore wind": 35.45,
+   "other": 0.18,
+   "solar": 148.68,
+   "solar+storage": 37.34,
+   "storage": 94.71,
+   "wind": 22.29
+  },
+  "by_window_n": {
+   "AG2": 544,
+   "AH1": 509,
+   "AI2": 454,
+   "AH2": 302,
+   "AG1": 172,
+   "AI1": 143,
+   "AF2": 122,
+   "AF1": 42,
+   "AE2": 30,
+   "AJ1": 20,
+   "AE1": 9
+  },
+  "mw_quantiles": {
+   "0.1": 19.8,
+   "0.25": 42.0,
+   "0.5": 100.0,
+   "0.75": 175.0,
+   "0.9": 300.0,
+   "0.99": 1300.0
+  },
+  "mw_median_by_fuel": {
+   "natural gas": 534.5,
+   "offshore wind": 1035.0,
+   "solar": 80.0,
+   "solar+storage": 80.0,
+   "storage": 110.0,
+   "wind": 188.5
+  },
+  "clustering": {
+   "n_counties": 466,
+   "share_requests_sharing_county_with_ge_2_others": 0.8877284595300261,
+   "share_requests_sharing_county_with_ge_5_others": 0.679721496953873,
+   "share_mw_in_counties_with_ge_5_requests": 0.7813264005408168,
+   "top_counties": [
+    {
+     "state": "IL",
+     "county": "Lee",
+     "to": "ComEd",
+     "n": 29,
+     "gw": 11.93
+    },
+    {
+     "state": "VA",
+     "county": "Mecklenburg",
+     "to": "Dominion",
+     "n": 26,
+     "gw": 2.78
+    },
+    {
+     "state": "VA",
+     "county": "Caroline",
+     "to": "Dominion",
+     "n": 25,
+     "gw": 3.06
+    },
+    {
+     "state": "VA",
+     "county": "Brunswick",
+     "to": "Dominion",
+     "n": 22,
+     "gw": 4.97
+    },
+    {
+     "state": "VA",
+     "county": "Halifax",
+     "to": "Dominion",
+     "n": 21,
+     "gw": 2.25
+    },
+    {
+     "state": "NJ",
+     "county": "Warren",
+     "to": "JCPL",
+     "n": 21,
+     "gw": 1.08
+    },
+    {
+     "state": "VA",
+     "county": "Greensville",
+     "to": "Dominion",
+     "n": 20,
+     "gw": 4.19
+    },
+    {
+     "state": "IN",
+     "county": "White",
+     "to": "AEP",
+     "n": 19,
+     "gw": 2.74
+    },
+    {
+     "state": "PA",
+     "county": "Mercer",
+     "to": "ATSI",
+     "n": 19,
+     "gw": 0.54
+    },
+    {
+     "state": "VA",
+     "county": "Fauquier",
+     "to": "Dominion",
+     "n": 18,
+     "gw": 2.17
+    }
+   ]
+  }
+ }
+}
